@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Responsive Sidebar Menu-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+   </head>
+<body>
+  <!--sidebar-->
+  <div class="sidebar">
+    <div class="logo-details">
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="index.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">My Day</span>
+        </a>
+         <span class="tooltip">My Day</span>
+      </li>
+      <li>
+       <a href="index2.html">
+         <i class='bx bx-calendar' ></i>
+         <span class="links_name">Calendar</span>
+       </a>
+       <span class="tooltip">Calendar</span>
+     </li>
+     <li>
+        <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+          <i class='bx bx-mail-send'></i>
+          <span class="links_name">Mail</span>
+        </a>
+         <span class="tooltip">Send mails as per schedule</span>
+      </li>
+    </ul>
+  </div>
+  <!--tasker-->
+ <div id="tasker" class="tasker">
+  <label id="lblGreetings"></label>
+ <div id="error" class="error">Please Enter a Task</div>
+   <h1>MyDay</h1>
+ <div id="todo-header" class="todo-header">
+ <input type="text" id="input-task" placeholder="Enter Your Task">
+ <button id="add-task"><i class="bx bx-plus"></i>
+ </button>
+ </div>
+ <div class="todo-lists">
+ <ul id="tasks"></ul>
+ </div>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>

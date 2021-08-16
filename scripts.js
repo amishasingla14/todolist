@@ -120,3 +120,7 @@ var myDate = new Date();
 
     document.getElementById('lblGreetings').innerHTML =
         '<b>Hey,'+'<b>' + greet;
+
+//Dislay date
+const d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();

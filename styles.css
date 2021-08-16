@@ -369,6 +369,7 @@ body {
 .calendar {
   width: 45rem;
   height: 41rem;
+  margin-left: 74px;
   background-color: #1d1b31;
   box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
 }

@@ -355,6 +355,10 @@ body {
   font-size: 20px;
   line-height: 60px;
 }
+/*date*/
+#demo{
+  font: 12px "Lucida Console",monospace;
+}
 /*calendar*/
 .container {
   width: 100%;
